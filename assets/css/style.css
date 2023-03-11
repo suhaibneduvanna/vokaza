@@ -390,15 +390,17 @@ h6 {
 }
 
 .navbar-mobile {
+  width: 70%;
   position: fixed;
   overflow: hidden;
   top: 0;
   right: 0;
-  left: 0;
+  /* left: 0; */
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
   transition: 0.3s;
   z-index: 999;
+  /* animation: ease-out; */
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -408,6 +410,8 @@ h6 {
 }
 
 .navbar-mobile ul {
+
+  width: 50%;
   display: block;
   position: absolute;
   top: 55px;
@@ -415,13 +419,12 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
-  overflow-y: auto;
   transition: 0.3s;
 }
 
 .navbar-mobile>ul>li {
   padding: 0;
+ 
 }
 
 .navbar-mobile a:hover:before,
@@ -434,7 +437,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #060c22;
+  color: #ffffff;
 }
 
 .navbar-mobile a:hover,
@@ -710,6 +713,7 @@ h6 {
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
+
 }
 
 #about h3 {
@@ -717,7 +721,7 @@ h6 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: rgb(255, 152, 0);
 }
 
 #about p {
@@ -1374,6 +1378,15 @@ h6 {
   color: #fff;
 }
 
+.modal-body h6{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.modal-body p{
+  text-transform: lowercase;
+  font-size: 8pt;
+}
+
 
 /*--------------------------------------------------------------
 # Contact Section
@@ -1405,6 +1418,13 @@ h6 {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #112363;
+}
+
+#contact .contact-info h4 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: bold;
   color: #112363;
 }
 
