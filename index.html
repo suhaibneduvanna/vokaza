@@ -1180,7 +1180,7 @@
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
-
+  <div id="preloader"></div>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1193,8 +1193,6 @@
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-
-
 
       const countDown = new Date(2023, 02, 17, 10, 00, 00).getTime(),
         x = setInterval(function () {
