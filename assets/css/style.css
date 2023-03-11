@@ -12,6 +12,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
 body {
   background: #fff;
   color: #2f3138;
@@ -121,7 +122,8 @@ h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid rgb(255, 152, 0);;
+  border: 6px solid rgb(255, 152, 0);
+  ;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -271,6 +273,35 @@ h6 {
   .buy-tickets {
     margin: 0 15px 0 0;
   }
+}
+
+.btn-guidelines {
+  color: #040919;
+  background: transparent;
+  padding: 7px 22px;
+  margin: 0 0 0 15px;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 152, 0);
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.btn-guidelines:hover {
+  color: #fff;
+  background: rgb(255, 152, 0);
+  padding: 7px 22px;
+  margin: 0 0 0 15px;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 152, 0);
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 13px;
+  white-space: nowrap;
+
 }
 
 /*--------------------------------------------------------------
@@ -470,7 +501,7 @@ h6 {
 
 .navbar-mobile>ul>li {
   padding: 0;
- 
+
 }
 
 .navbar-mobile a:hover:before,
@@ -1424,11 +1455,12 @@ h6 {
   color: #fff;
 }
 
-.modal-body h6{
+.modal-body h6 {
   text-transform: uppercase;
   font-weight: bold;
 }
-.modal-body p{
+
+.modal-body p {
   text-transform: lowercase;
   font-size: 8pt;
 }
